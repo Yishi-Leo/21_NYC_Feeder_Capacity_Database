@@ -40,7 +40,7 @@ inc = pd.merge(inc, inca, how='left', on='ZCTA')
 
 # Merge population, income and hosting capacity based on ZCTA
 manhattan = pd.read_csv('Manhattan/manhattan_hosting_capacity.csv', dtype=str)
-# print(manhattan)
 manhattan = pd.merge(manhattan, pop, how='left', on='ZCTA')
 manhattan = pd.merge(manhattan, inc, how='left', on='ZCTA')
+print(manhattan)
 manhattan.to_csv('Manhattan/manhattan.csv', index=False)
