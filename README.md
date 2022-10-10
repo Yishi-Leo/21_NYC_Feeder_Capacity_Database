@@ -21,9 +21,9 @@ Queens/queens_coned_data.csv (For Queens+Brooklyn Borough) <br />
 
 ## Data Processing
 **FlowChart.jpg** shows the flowchart of the complete steps for data processing. The following python files were used to process the data. <br />
-groupby_ZCTA.py: 
-merge_capacity_demographic.py: 
-**Zip2ZCTA.py**: Converted zipcodes of the blocks after geocoding to ZCTA according to **ZIPCodetoZCTACrosswalk2019.xlsx** from UDSMapper
+**groupby_ZCTA.py**: Calculated the mean, medium, total hosting capacity from the local blocks within the zip code tabulation area. <br />
+**merge_capacity_demographic.py**: Integrated the energy data and demographic data at the zip code tabulation area level. <br />
+**Zip2ZCTA.py**: Converted zipcodes of the blocks after geocoding to ZCTA according to the dataset: **ZIPCodetoZCTACrosswalk2019.xlsx** <br />
 
 ## Miscellanies
-**ZIPCodetoZCTACrosswalk2019.xlsx** was used to convert zipcodes after geocoding to ZCTA.
+**ZIPCodetoZCTACrosswalk2019.xlsx** was created by UDSMapper, which matches the zipcodes by UPS with ZCTA by US Census Bureau.
