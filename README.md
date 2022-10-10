@@ -35,12 +35,15 @@ Finally, we achieved three datasets for each of the borough in NYC. The result d
 Q: What is the **ZIPCodetoZCTACrosswalk2019.xlsx** in the repository? <br />
 A: **ZIPCodetoZCTACrosswalk2019.xlsx** was created by UDSMapper, which matches the zipcodes by UPS with ZCTA by US Census Bureau. <br />
 <br />
-borough_center_latitude.csv represents the latitude of the blocks' centriods in that borough.
-borough_center_longitude.csv represents the longitude of the blocks' centriods in that borough.
-bronx_zip_matched.csv
-bronx_ZCTA_matched.csv represents the 
-bronx_hosting_capacity.csv represents the blocks with 
-The blocks is the energy distribution network area, shown as the blue rectangle network in the picture below. Because in NYC, the energy distribution system is deployed underground. The secondary grid consists of multiple sets of low-voltage cables and are supplied by network feeders, and are energized from underground transformers. Customers’ service lines are connected to these cables, which are installed under the street, and connected with the manhole and service box. Because of the interconnectivity, the exact path to the customer is not known.
+Q: What is other data files in the 3 geographically named folders? <br />
+A: **borough_center_latitude.csv** represents the latitude of the blocks' centriods in that borough.<br />
+**borough_center_longitude.csv** represents the longitude of the blocks' centriods in that borough.<br />
+**bronx_zip_matched.csv** represents the energy data with zipcodes using geocoding. We extracted the zipcodes of the blocks according to their coordinates.<br />
+**bronx_ZCTA_matched.csv** represents the energy data with ZCTA. We convert the zipcodes into ZCTA with **Zip2ZCTA.py** after we achieve the zipcode information.<br />
+**bronx_hosting_capacity.csv** represents the complete energy data.<br />
+<br />
+Q: What is "blocks" mentioned in this descriptive file? <br />
+A: The blocks is the energy distribution network area, shown as the blue rectangle network in the picture below. Because in NYC, the energy distribution system is deployed underground. The secondary grid consists of multiple sets of low-voltage cables and are supplied by network feeders, and are energized from underground transformers. Customers’ service lines are connected to these cables, which are installed under the street, and connected with the manhole and service box. Because of the interconnectivity, the exact path to the customer is not known. <br />
 
 ![image](https://user-images.githubusercontent.com/114182049/194950427-ce7a6712-b7c3-4a10-a0eb-09bb9df9cfd8.png)
 
