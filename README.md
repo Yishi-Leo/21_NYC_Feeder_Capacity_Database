@@ -38,6 +38,7 @@ borough_center_longitude.csv represents the longitude of the blocks' centriods i
 bronx_zip_matched.csv
 bronx_ZCTA_matched.csv represents the 
 bronx_hosting_capacity.csv represents the blocks with 
-The blocks is the energy distribution network area. Because the 
+The blocks is the energy distribution network area, shown as the blue rectangle network in the picture below. Because in NYC, the energy distribution system is deployed underground. The secondary grid consists of multiple sets of low-voltage cables and are supplied by network feeders, and are energized from underground transformers. Customers’ service lines are connected to these cables, which are installed under the street, and connected with the manhole and service box. Because of the interconnectivity, the exact path to the customer is not known.
+
 ![image](https://user-images.githubusercontent.com/114182049/194950427-ce7a6712-b7c3-4a10-a0eb-09bb9df9cfd8.png)
 
