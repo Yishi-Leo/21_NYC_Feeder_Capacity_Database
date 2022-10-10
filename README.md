@@ -18,3 +18,9 @@ Demographic/ACSDT5Y2019.B19013I-Data.csv (For Hispanic People) <br />
 Bronx/bronx_coned_data.csv (For Bronx Borough) <br />
 Manhattan/manhattan_coned_data.csv (For Manhattan Borough) <br />
 Queens/queens_coned_data.csv (For Queens+Brooklyn Borough) <br />
+
+## Data Processing
+**FlowChart.jpg** shows the flowchart of the complete steps for data processing. The 
+
+## Miscellanies
+ZIPCodetoZCTACrosswalk2019.xlsx was used to convert zipcodes after geocoding to ZCTA.
