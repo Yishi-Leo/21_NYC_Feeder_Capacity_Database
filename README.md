@@ -26,10 +26,18 @@ Queens/queens_coned_data.csv (For Queens+Brooklyn Borough) <br />
 **Zip2ZCTA.py**:<br /> Converted zipcodes of the blocks after geocoding to ZCTA according to the dataset: **ZIPCodetoZCTACrosswalk2019.xlsx** <br />
 
 ## Results:
-Finally, we achieved three datasets for each of the borough in NYC. The result datasets include the energy data, population data, and median income data for each group. <br />
+Finally, we achieved three datasets for each of the borough in NYC. The result datasets include the energy data, population data, and median income data for each of the four racial groups. <br />
 **Bronx/bronx.csv** (For Bronx Borough) <br />
 **Manhattan/manhattan.csv** (For Manhattan Borough) <br />
 **Queens/queens.csv** (For Queens+Brooklyn Borough) <br />
 
 ## Miscellanies
 **ZIPCodetoZCTACrosswalk2019.xlsx** was created by UDSMapper, which matches the zipcodes by UPS with ZCTA by US Census Bureau.
+borough_center_latitude.csv represents the latitude of the blocks' centriods in that borough.
+borough_center_longitude.csv represents the longitude of the blocks' centriods in that borough.
+bronx_zip_matched.csv
+bronx_ZCTA_matched.csv represents the 
+bronx_hosting_capacity.csv represents the blocks with 
+The blocks is the energy distribution network area. Because the 
+![image](https://user-images.githubusercontent.com/114182049/194950427-ce7a6712-b7c3-4a10-a0eb-09bb9df9cfd8.png)
+
