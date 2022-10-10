@@ -20,7 +20,10 @@ Manhattan/manhattan_coned_data.csv (For Manhattan Borough) <br />
 Queens/queens_coned_data.csv (For Queens+Brooklyn Borough) <br />
 
 ## Data Processing
-**FlowChart.jpg** shows the flowchart of the complete steps for data processing. The 
+**FlowChart.jpg** shows the flowchart of the complete steps for data processing. The following python files were used to process the data. <br />
+groupby_ZCTA.py: 
+merge_capacity_demographic.py: 
+**Zip2ZCTA.py**: Converted zipcodes of the blocks after geocoding to ZCTA according to **ZIPCodetoZCTACrosswalk2019.xlsx** from UDSMapper
 
 ## Miscellanies
-ZIPCodetoZCTACrosswalk2019.xlsx was used to convert zipcodes after geocoding to ZCTA.
+**ZIPCodetoZCTACrosswalk2019.xlsx** was used to convert zipcodes after geocoding to ZCTA.
