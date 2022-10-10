@@ -20,10 +20,16 @@ Manhattan/manhattan_coned_data.csv (For Manhattan Borough) <br />
 Queens/queens_coned_data.csv (For Queens+Brooklyn Borough) <br />
 
 ## Data Processing Files:
-**FlowChart.jpg** shows the flowchart of the complete steps for data processing. The following python files were used to process the data. <br />
-**groupby_ZCTA.py**: Calculated the mean, medium, total hosting capacity from the local blocks within the zip code tabulation area. <br />
-**merge_capacity_demographic.py**: Integrated the energy data and demographic data at the zip code tabulation area level. <br />
-**Zip2ZCTA.py**: Converted zipcodes of the blocks after geocoding to ZCTA according to the dataset: **ZIPCodetoZCTACrosswalk2019.xlsx** <br />
+**FlowChart.jpg**: shows the flowchart of the complete steps for data processing. The following python files were used to process the data. <br />
+groupby_ZCTA.py: Calculated the mean, medium, total hosting capacity from the local blocks within the zip code tabulation area. <br />
+merge_capacity_demographic.py**: Integrated the energy data and demographic data at the zip code tabulation area level. <br />
+Zip2ZCTA.py: Converted zipcodes of the blocks after geocoding to ZCTA according to the dataset: **ZIPCodetoZCTACrosswalk2019.xlsx** <br />
+
+## Results:
+Finally, we achieved three datasets for each of the borough in NYC. 
+**Bronx/bronx.csv** (For Bronx Borough) <br />
+**Manhattan/manhattan.csv** (For Manhattan Borough) <br />
+**Queens/queens.csv** (For Queens+Brooklyn Borough) <br />
 
 ## Miscellanies
 **ZIPCodetoZCTACrosswalk2019.xlsx** was created by UDSMapper, which matches the zipcodes by UPS with ZCTA by US Census Bureau.
