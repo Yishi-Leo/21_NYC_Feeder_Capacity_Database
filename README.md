@@ -26,7 +26,7 @@ Queens/queens_coned_data.csv (For Queens+Brooklyn Borough) <br />
 **Zip2ZCTA.py**:<br /> Converted zipcodes of the blocks after geocoding to ZCTA according to the dataset: **ZIPCodetoZCTACrosswalk2019.xlsx** <br />
 
 ## Results:
-Finally, we achieved three datasets for each of the borough in NYC. 
+Finally, we achieved three datasets for each of the borough in NYC. The result datasets include the energy data, population data, and median income data for each group. <br />
 **Bronx/bronx.csv** (For Bronx Borough) <br />
 **Manhattan/manhattan.csv** (For Manhattan Borough) <br />
 **Queens/queens.csv** (For Queens+Brooklyn Borough) <br />
