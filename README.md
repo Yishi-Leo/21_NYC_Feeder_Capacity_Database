@@ -31,8 +31,10 @@ Finally, we achieved three datasets for each of the borough in NYC. The result d
 **Manhattan/manhattan.csv** (For Manhattan Borough) <br />
 **Queens/queens.csv** (For Queens+Brooklyn Borough) <br />
 
-## Miscellanies
-**ZIPCodetoZCTACrosswalk2019.xlsx** was created by UDSMapper, which matches the zipcodes by UPS with ZCTA by US Census Bureau.
+## Q&As: 
+Q: What is the **ZIPCodetoZCTACrosswalk2019.xlsx** in the repository? <br />
+A: **ZIPCodetoZCTACrosswalk2019.xlsx** was created by UDSMapper, which matches the zipcodes by UPS with ZCTA by US Census Bureau. <br />
+<br />
 borough_center_latitude.csv represents the latitude of the blocks' centriods in that borough.
 borough_center_longitude.csv represents the longitude of the blocks' centriods in that borough.
 bronx_zip_matched.csv
