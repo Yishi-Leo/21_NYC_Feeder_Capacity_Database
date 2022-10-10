@@ -19,7 +19,7 @@ Bronx/bronx_coned_data.csv (For Bronx Borough) <br />
 Manhattan/manhattan_coned_data.csv (For Manhattan Borough) <br />
 Queens/queens_coned_data.csv (For Queens+Brooklyn Borough) <br />
 
-## Data Processing
+## Data Processing Files:
 **FlowChart.jpg** shows the flowchart of the complete steps for data processing. The following python files were used to process the data. <br />
 **groupby_ZCTA.py**: Calculated the mean, medium, total hosting capacity from the local blocks within the zip code tabulation area. <br />
 **merge_capacity_demographic.py**: Integrated the energy data and demographic data at the zip code tabulation area level. <br />
